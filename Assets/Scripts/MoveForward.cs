@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveForwardX : MonoBehaviour
+public class MoveForward : MonoBehaviour
 {
-    public float speed;
+    private float speed = 20.0f;
 
     // Update is called once per frame
     void Update()
